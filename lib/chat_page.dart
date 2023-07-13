@@ -137,10 +137,12 @@ class _ChatPageState extends State<ChatPage> {
                             'email': widget.myEmail,
                             'date_time': DateTime.now().toString(),
                           },
-                        ).then(
-                          (value) => setState(
-                            () => msgController.clear(),
-                          ),
+                        );
+                        setState(
+                          () {
+                            FocusScope.of(context).focusedChild!.unfocus();
+                            msgController.clear();
+                          },
                         );
                       },
                     ),
