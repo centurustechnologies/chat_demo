@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "764369941467",
+    "project_id": "chat-firebase-810e6",
+    "storage_bucket": "chat-firebase-810e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764369941467:android:756048e2d961d95c232dfe",
+        "android_client_info": {
+          "package_name": "com.example.labalaba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "764369941467-grjl7t3e47kv3ok41dv3ceq3ak7bdccf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA_YW36p8bQ39u2co9YC37EpvdIe0RwwI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "764369941467-grjl7t3e47kv3ok41dv3ceq3ak7bdccf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
