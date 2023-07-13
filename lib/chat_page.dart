@@ -46,7 +46,6 @@ class _ChatPageState extends State<ChatPage> {
                     return ListView.builder(
                       shrinkWrap: true,
                       reverse: true,
-                      // physics: const NeverScrollableScrollPhysics(),
                       itemCount: snapshot.data!.docs.length,
                       itemBuilder: (context, index) {
                         DocumentSnapshot documentSnapshot =
