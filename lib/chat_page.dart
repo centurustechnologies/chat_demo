@@ -46,7 +46,7 @@ class _ChatPageState extends State<ChatPage> {
                     return ListView.builder(
                       shrinkWrap: true,
                       reverse: true,
-                      physics: const NeverScrollableScrollPhysics(),
+                      // physics: const NeverScrollableScrollPhysics(),
                       itemCount: snapshot.data!.docs.length,
                       itemBuilder: (context, index) {
                         DocumentSnapshot documentSnapshot =
@@ -140,7 +140,6 @@ class _ChatPageState extends State<ChatPage> {
                         );
                         setState(
                           () {
-                            FocusScope.of(context).focusedChild!.unfocus();
                             msgController.clear();
                           },
                         );
